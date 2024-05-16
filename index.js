@@ -1,5 +1,5 @@
 const navbar = document.querySelector(".navbar")
-fetch('/Components/Nav/nav.html')
+fetch('Components/Nav/nav.html')
 .then(res=>res.text())
 .then(data=>{
     navbar.innerHTML=data
@@ -9,7 +9,7 @@ fetch('/Components/Nav/nav.html')
 })
 
 const footer = document.getElementById("footer")
-fetch('/Components/Footer/footer.html')
+fetch('Components/Footer/footer.html')
 .then(res=>res.text())
 .then(data=>{
     footer.innerHTML=data
